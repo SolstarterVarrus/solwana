@@ -38,6 +38,7 @@ const config: Config = {
       lineHeight: {
         "24px": "24px",
         "42px": "42px",
+        "63px": "63px",
       },
       boxShadow: {
         custom: "0 4px 0 #9945FF",
@@ -60,6 +61,10 @@ const config: Config = {
         '-3deg': '-3deg',
         '-8deg': '-8deg',
       },
+      fontFamily: {
+        'rubikMonoOne': ['Rubik Mono One', 'sans-serif'],
+      },
+
     },
   },
   plugins: [],

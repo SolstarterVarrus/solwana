@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="w-full h-screen flex flex-col items-center mt-16">
       {/* DESCRIPTION */}
-      <p className="text-39px font-black leading-normal">
+      <p className="text-39px font-black leading-normal" id="about">
         POWERFUL FOR MEMECOIN
       </p>
       <p className="text-39px font-black leading-normal">CONNOISSEURS.</p>
@@ -231,7 +231,7 @@ export default function Home() {
 
       {/* MEMENOMICS */}
       <div className="flex flex-col items-center mt-14">
-        <span className="text-39px font-black leading-normal">MEMENOMICS</span>
+        <span className="text-39px font-black leading-normal" id="memenomics">MEMENOMICS</span>
         <div className="flex flex-wrap justify-center gap-y-7 gap-x-8 content-center w-526px h-356px bg-white border border-3px border-purple-theme rounded-[30px] mt-14">
           {/* First row */}
           <div className="w-200px h-83px bg-yellow-theme rounded-[13px] border-3px border-purple-theme text-22px font-black flex justify-center items-center text-center shadow-custom">
@@ -272,7 +272,7 @@ export default function Home() {
       />
 
       {/* HOW TO BUY */}
-      <div className="flex flex-col items-center mt-14">
+      <div className="flex flex-col items-center mt-14" id="how-to-buy">
         <span className="text-39px font-black leading-normal">HOW TO BUY</span>
         <div className="grid grid-cols-2 grid-rows-2 gap-x-16 gap-y-10 mt-14">
           <div className="w-460px h-221px flex flex-col bg-purple-theme-2 border-3px border-purple-theme rounded-[20px] text-center">
@@ -327,11 +327,11 @@ export default function Home() {
 
       {/* FOOTER */}
       <div className="w-full mt-28">
-        <span className="w-full p-16 block bg-yellow-theme border-t-3px border-b-3px border-purple-theme text-39px text-center font-black whitespace-normal">
+        <span className="w-full p-4 block bg-yellow-theme border-t-3px border-b-3px border-purple-theme text-normal text-center font-black whitespace-normal">
           Solwana $SOLW has no association with Solana.
-          <br />
+          {/* <br /> */}
           This token is simply a meme with no intrinsic value
-          <br />
+          {/* <br /> */}
           or expectation of financial return.
         </span>
         <span className="flex justify-center items-center h-14 m-auto text-base text-center">
