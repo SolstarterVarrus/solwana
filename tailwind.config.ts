@@ -46,10 +46,12 @@ const config: Config = {
       inset: {
         '66rem': '66rem',
         '106rem': '106rem',
+        '92rem': '92rem',
       },
       borderRadius: {
         "30px": "30px",
         "28px": "28px",
+        "26px": "26px",
         "25px": "25px",
         "20px": "20px",
         "13px": "13px",
@@ -60,6 +62,9 @@ const config: Config = {
       rotate: {
         '-3deg': '-3deg',
         '-8deg': '-8deg',
+      },
+      screens: {
+        'sm': '320px',
       },
       fontFamily: {
         'rubikMonoOne': ['Rubik Mono One', 'sans-serif'],
